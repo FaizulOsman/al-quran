@@ -82,6 +82,7 @@ const surahModal = async (surahObject) => {
 
 
 
+    /* Surah */
     surah.forEach(ayah => {
         const span = document.createElement('span')
         span.innerHTML = `
